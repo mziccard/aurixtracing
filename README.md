@@ -16,13 +16,13 @@ is run and are called `trace_coreX.txt`.
 
 The tracing program accepts the following options:
 
--   `–buffer-address, -a`: allows to manually specify the address of the
+-   `--buffer-address, -a`: allows to manually specify the address of the
     trace buffer
 
--   `–polling-period, -p`: allows to set the polling period, in
+-   `--polling-period, -p`: allows to set the polling period, in
     microseconds
 
--   `–output, -o`: allows to set a prefix (`<prefix>`) for the trace
+-   `--output, -o`: allows to set a prefix (`<prefix>`) for the trace
     files that will be called `<prefix>X.txt`
 
--   `–singlecore, -c`: enables tracing only for the master core
+-   `--singlecore, -c`: enables tracing only for the master core
