@@ -90,7 +90,7 @@ int main(int argc, char** argv)
     }
 
     if (vm.count("polling-period")) {
-      polling_period = vm["singlecore"].as<unsigned int>();
+      polling_period = vm["polling-period"].as<unsigned int>();
     }
 
   } catch(po::error& e) {
